@@ -1,12 +1,22 @@
 # Bioinformatics tools (Portfolio)
 
+## Standalone Scripts
+
+### gffFormater
+
+This script will correct the heiarchial structure of a GFF3 file. The script will produce a new GFF3 file in which
+the heiarchial organization of lines follows the conventions laid out by the Sequence Oncology Project. That is, all genes
+are followed by their respective mRNA's, then exons, then CDS's. 
+
+## Scripts which rely on Class Library
+
 ### Class Library
 
-House all the classes called upon by the scripts.
+House all the classes called upon by the scripts. 
 
 ### exonerate_script
 
-Uses the command line exonerate tools to call exonerate from the command line with a protein sequence FASTA file query on a genomic sequence FASTA database
+Uses the command line exonerate tools to call exonerate from the command line with a protein sequence FASTA file query on a genomic sequence FASTA database.
 
 ### create_blast_database
 
