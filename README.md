@@ -1,4 +1,5 @@
-# Bioinformatics tools (Portfolio)
+ Bioinformatics tools (Portfolio)
+ ====
 
 ## Standalone Scripts
 
@@ -10,7 +11,7 @@ are followed by their respective mRNA's, then exons, then CDS's.
 
 ### gffFormater.go
 
-This script, written in Go, corrects problems specific to a database of arbuscular mycorrhizal fungus GFF3 files we were working with. The script removes any lines in the GFF3 that do not follow the conventions laid out by the Sequence Oncology Project, and corrects the "attributes" of each line by adding a unique ID (which was missing). Produces a new GFF3 file with the corrections made. 
+This script, written in **Go**, corrects problems specific to a database of arbuscular mycorrhizal fungus GFF3 files we were working with. The script removes any lines in the GFF3 that do not follow the conventions laid out by the Sequence Oncology Project, and corrects the "attributes" of each line by adding a unique ID (which was missing). Produces a new GFF3 file with the corrections made. 
 
 ## Scripts which rely on Class Library
 
