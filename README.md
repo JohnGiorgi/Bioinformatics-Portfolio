@@ -4,8 +4,8 @@
 
 ### gffFormater
 
-This script will correct the heiarchial structure of a GFF3 file. The script will produce a new GFF3 file in which
-the heiarchial organization of lines follows the conventions laid out by the Sequence Oncology Project. That is, all genes
+This script will correct the hierarchical structure of a GFF3 file. The script will produce a new GFF3 file in which
+the hierarchical organization of lines follows the conventions laid out by the Sequence Oncology Project. That is, all genes
 are followed by their respective mRNA's, then exons, then CDS's. 
 
 ## Scripts which rely on Class Library
