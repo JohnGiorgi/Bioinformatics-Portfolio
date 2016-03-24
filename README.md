@@ -2,7 +2,7 @@
 
 ## Standalone Scripts
 
-### gffFormater.py
+#### gffFormater.py
 
 This script will correct the hierarchical structure of a GFF3 file. The script will produce a new GFF3 file in which
 the hierarchical organization of lines follows the conventions laid out by the Sequence Oncology Project. That is, all genes
