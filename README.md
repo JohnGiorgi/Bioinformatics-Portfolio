@@ -27,7 +27,7 @@ python3 identityCurve.py <alignment1.fasta> <alignment2.fasta> -w <windowSize>
 
 ## RNAseq_variability.R ##
 
-This script is designed to compute metrics of variabillity between replicate RNAseq transcriptome normalized gene count data. Currently, it will accept a csv file containing such data and determine the standard deviation and mean of the standard deviation over the mean of each replicates gene count. A final csv file will be created which contains a single standard deviation value and a single mean value for each replicate in the input file.
+This script, written in **R** is designed to compute metrics of variabillity between replicate RNAseq transcriptome normalized gene count data. Currently, it will accept a csv file containing such data and determine the standard deviation and mean of the standard deviation over the mean of each replicates gene count. A final csv file will be created which contains a single standard deviation value and a single mean value for each replicate in the input file.
 
 ## gffFormater.py ##
 
