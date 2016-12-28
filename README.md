@@ -44,6 +44,21 @@ python3 identityCurve.py <alignment1.fasta> <alignment2.fasta> -w <windowSize>
 
 This script, written in **R**, is designed to compute metrics of variabillity between replicate RNAseq transcriptome normalized gene count data. Currently, it will accept a csv file containing such data and determine the standard deviation and mean of the standard deviation over the mean of each replicates gene count. A final csv file will be created which contains a single standard deviation value and a single mean value for each replicate in the input file.
 
+## RNAseq_workflow.py ##
+
+The script, written in **Python**, will automate the process of downloading high-throughput full transcriptome RNAseq data from NCBI data base (in .sra format), trimming each read (which includes removing adaptor sequences) and then mapping the trimmed reads back to a reference genome. 
+
+### To use ###
+
+* First open the script. Set the variables secondStrainFileName and firstStrainFileName to the paths to the input fasta files.
+* When calling the script, provide argument -p to align protein sequences or -n to align nucleotide sequences. 
+
+### Example: ###
+
+```
+python3 pairwise.py -p
+```
+
 ## gffFormater.py ##
 
 This script, written in **Python**, will correct the hierarchical structure of a GFF3 file. The script will produce a new GFF3 file in which
