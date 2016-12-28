@@ -1,6 +1,22 @@
 Bioinformatics tools (Portfolio)
 =======
 
+## pairwise.py ##
+
+The script will perform a pairwise analysis for each sequence in two input fasta files.The results will be printed to the console as a matrix. 
+
+### To use ###
+
+* First open the script. Set the variables secondStrainFileName and firstStrainFileName to the paths to the input fasta files.
+* When calling the script, provide argument -p to align protein sequences or -n to align nucleotide sequences. 
+
+### Example: ###
+
+```
+python3 pairwise.py -p
+ 
+```
+
 ## identityCurve.py ##
 
 This script, written in **Python** will accept as input multiple pairwise alignment files, where the first sequence in each alignment file is expected to be from the same organism - this is considered the reference sequence. 
