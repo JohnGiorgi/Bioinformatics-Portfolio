@@ -1,19 +1,19 @@
 Bioinformatics tools (Portfolio)
 =======
 
-# gffFormater.py #
+## gffFormater.py ##
 
-This script will correct the hierarchical structure of a GFF3 file. The script will produce a new GFF3 file in which
+This script, written in **Python**, will correct the hierarchical structure of a GFF3 file. The script will produce a new GFF3 file in which
 the hierarchical organization of lines follows the conventions laid out by the Sequence Oncology Project. That is, all genes
 are followed by their respective mRNA's, then exons, then CDS's.
 
-# gffFormater.go #
+## gffFormater.go ##
 
 This script, written in **Go**, corrects problems specific to a database of arbuscular mycorrhizal fungus GFF3 files we were working with. The script removes any lines in the GFF3 that do not follow the conventions laid out by the Sequence Oncology Project, and corrects the "attributes" of each line by adding a unique ID (which was missing). Produces a new GFF3 file with the corrections made. 
 
-# identityCurve.py #
+## identityCurve.py ##
 
-This script will accept as input multiple pairwise alignment files, where the first sequence in each alignment file is expected to be from the same organism - this is considered the reference sequence. 
+This script, written in **Python** will accept as input multiple pairwise alignment files, where the first sequence in each alignment file is expected to be from the same organism - this is considered the reference sequence. 
 
 A a csv file is created containing a matrix that will allow for subsequent plotting of an "identity curve". 
 
@@ -32,7 +32,5 @@ During a call to the script, you must provide the following arguments:
 ### Example: ###
 
 ```
-#!bash
-
 python3 identityCurve.py <alignment1.fasta> <alignment2.fasta> -w <windowSize>
 ```
